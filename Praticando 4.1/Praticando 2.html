@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table colsplan e rowspan</title>
+
+    <style>
+        table, td{
+            border: 1px solid red;
+        }
+        td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Praticando 2 - Tabelas Colspan e Rowspan</h2>
+        
+    <a href="menu.html" target="_blank">
+        <p>Voltar ao Menu Principal</p>
+    </a>
+
+    <h2>Tabela Coslpan</h2>
+    <table>
+        <tr>
+            <td colspan="3">Coslpan</td><!--1 Cédula na primeira linha-->
+        </tr>
+        <tr>
+            <td>-</td><!--3 Cédulas na segunda linha-->
+            <td>-</td>
+            <td>-</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+
+    <h2>Tabela Rowspan</h2>
+    <table>
+        <tr>
+            <td>-</td><!--2 Cédulas na primeira linha-->
+            <td rowspan="3">Rowspan</td>
+        </tr>
+        <tr>
+            <td>-</td><!--1 Cédula na segunda linha-->
+        </tr>
+        <tr>
+            <td>-</td>
+        </tr>
+    </table>
+
+    <br><br>
+</body>
+</html>

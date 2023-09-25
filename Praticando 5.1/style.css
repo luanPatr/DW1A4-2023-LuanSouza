@@ -1,0 +1,40 @@
+.fundo{
+    background-color:  rgb(187, 187, 187);
+  }
+
+  .myDiv {
+    border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;
+  }
+
+  .myDivBlue {
+    border: 5px outset blue;
+    background-color: lightblue;    
+    text-align: center;
+  }
+
+  .myDivGreen2 {
+    background-color: green;;    
+  }
+
+  .myDivGreen1 {
+    background-color: rgb(0, 68, 0);   
+  }
+
+  .myDivGreen3 {
+    background-color: rgb(87, 225, 87);   
+  }
+
+
+  .myDivRed2 {
+    background-color: red;;    
+  }
+
+  .myDivRed1 {
+    background-color: rgb(90, 24, 24);  
+  }
+
+  .myDivRed3 {
+    background-color: rgb(224, 130, 130);   
+  }
